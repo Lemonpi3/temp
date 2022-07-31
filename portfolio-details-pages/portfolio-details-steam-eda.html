@@ -94,17 +94,13 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-                
+
                 <div class="swiper-slide">
-                  <img src="../assets/images/Roguelikedemo.jpg" alt="">
+                  <img src="..\assets\images\DALL·E 2022-07-30 10.17.51 - drawing of a robot doing Data science, digital art.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets\images\roguelikepowers.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/images/roguelikepowersystem.jpg" alt="">
+                  <img src="../assets\images\tag_representation.png" alt="">
                 </div>
 
               </div>
@@ -116,20 +112,31 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Unity, 2D, System</li>
-                <li><strong>Status</strong>: Finished, Not Compiled, has a demo scene in editor.</li>
-                <li><strong>Project start date</strong>: 7 May, 2022</li>
-                <li><strong>Project Github</strong>: <a href="https://github.com/Lemonpi3/Roguelike-power-system">https://github.com/Lemonpi3/Roguelike-power-system</a></li>
+                <li><strong>Category</strong>: Data Science, EDA and model creation</li>
+                <li><strong>Topic</strong>: Games, Product analysis</li>
+                <li><strong>Status</strong>: Finished</li>
+                <li><strong>Project date</strong>: Mar 1, 2022</li>
+                <li><strong>Project Github</strong>: <a href="https://github.com/Lemonpi3/Steam-data-EDA-and-Score-Predictor">https://github.com/Lemonpi3/Steam-data-EDA-and-Score-Predictor</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>Roguelike power system</h2>
+              <h2>Steam games EDA and score predictor</h2>
               <p>
-                Generic roguelike powers system for 2D games but can be easily adapted to 3D that has lots of customization to create limitless powers using scriptable objects. Includes a small minigame/template demo.
+                In this proyect I do a exploratory data analysis of a dataset that contains scrapped data of the games from the steam store, with the porpuse of gathering insights of which type of games where the best recived by the players as well as which publishers and developers where the best scored on average and how all of the mentioned relate with the metascore.
               </p>
-              <p>You can find a small documentation inside the github repo.</p>
+              <p>
+                After the EDA I've wanted to make a model that could predict the score that a game will have over time, this could be usefull for users at the time of buying a new game helping them by informing them with an expected result to make the right choise of buying it and prevent issues like mass refounds due to scams or bad games.Recent examples of this could be No man sky on release or battlefield 2042 where at realease they deliver less than the advertised to the point where the game wasn't liked by the playerbase and caused steam to deliver mass refounds out of the conventional refound policies.
+              </p>
+              <p>
+                I've used a modified version of <a href='https://github.com/prncc/steam-scraper'>this scrapper</a> which worked fine but got some issues with the scrapped data that I didn't see while it was scrapping and I've only got ~5% of the metascores as well as some other issues that are seen during the EDA that could impact the results of the EDA and the model accuracy. I didn't restart the scraping process because of two things:
+              <ol>
+                <li>I wanted to challenge my self with awful looking data and see if I could manage to salvage it.</li>
+                <li>I took around 12 hours to gather the data and I didn't feel to do it again for this proyect.</li>
+              </ol>
+              </p>
             </div>
           </div>
+
         </div>
 
       </div>
